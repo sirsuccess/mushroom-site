@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style: none;
+    font-family: OpenSans;
+    color: #000000;
+}
+img{
+  width: 100vw !important;;
+  height: 80vh !important;
+  object-fit: cover;
+}
+
+.navbar{
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+ z-index: 10;
+}
+
+.navbar ul{
+  width: 100%;
+  /* height: 70px; */
+  justify-content: flex-end;
+  margin-right: 10em;
+display: flex;
+margin-right:20px;
+/* align-items: center; */
+/* margin-top: 120px; */
+/* background-color: #ffffff; */
+
+}
+.navbar ul li{
+  background-color: #ffffff;
+  margin-right: 30px;
+  font-size: 15px;
+  color: #45526b;
+  display: flex;
+  align-items: center;
+  font-family: OpenSans-SemiBold;
+  cursor: pointer;
+}
+.navbar ul li:hover{
+color: #5eb7ff
+}
+.btn-signup{
+  width: 120px;
+  height: 42px;
+  background-color: #50e3c2;
+  color: #ffffff
+}
+.fa-user{
+  color: #000000;
+  /* display: none; */
+  /* margin-right: auto; */
+}
+
+/* end of header file  */
+.carousel{
+  margin-top: 48px;
+}

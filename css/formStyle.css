@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;    
+
+}
+
+
+.main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.main-left{
+    width: 50%;
+    background-image: url("../img/mushroom-6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    text-align: center;
+    color: rgb(248,122,12);
+    font-size: 20px;
+    font-weight: bold;
+}
+.rang1{
+    font-size: 200px;
+    margin-bottom: 100px;
+}
+
+
+/* end of .main-left */
+.main-right{
+    width: 50%;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+.inner-main{
+    width: 40px;
+}
+.main-right span {
+    color: rgb(248,122,12);
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+.rang-right{
+    display: flex;
+}
+.rang-right h1{
+    font-size: 100px;
+    background: -webkit-linear-gradient( top, #50e3c2 60%, black 0% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h4{
+    color: rgb(136, 136, 138);
+    margin-bottom: 50px;
+}
+.input{
+    width:400px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 5px;
+    border: 1px rgb(206, 205, 204) solid;
+    border-radius: 5px;
+    
+}
+.input:focus-within{
+border: 2px rgb(248,122,12) solid;
+}
+.check{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.ema, .pas{
+ position: relative;
+ bottom: -8px;
+ left: 20px;;
+ background-color: white;
+ width: 100px;
+ text-align: center;
+}
+.btn{
+    width: 68%;
+display: flex;
+justify-content: space-between
+}
+button{
+    width: 200px;
+    height: 45px;
+    border: 2px #50e3c2 solid;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 5px;
+}
+button:first-child{
+    background-color:  #50e3c2;
+    color: rgb(255, 255, 255);
+    box-shadow: 0.5px 5px 20px #50e3c2;
+}
+h5{
+    position: absolute;
+    top:0;
+    left: 50px;
+}
+
+
+/* new screen */
+
+@media only screen and ( max-width:980px){
+
+    .main{
+        flex-direction: column;
+    }
+    .main-left{
+        width: 100%;
+    }
+    .main-right{
+        width: 80%;
+    }
+}
